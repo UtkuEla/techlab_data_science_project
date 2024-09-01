@@ -1,3 +1,0 @@
-import pandas as pd 
-df = pd.read_csv('gym_membership_prediction_with_professional_status.csv')
-print(df.to_string())
