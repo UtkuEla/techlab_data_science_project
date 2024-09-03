@@ -24,7 +24,7 @@ graph_type = st.radio(
 filtered_df = df[df['Gender'] == gender]
 
 if graph_type == 'Annual Income vs Profession':
-    fig = px.bar(filtered_df, x='Professional', y='Annual Income', 
+    fig = px.bar(filtered_df, x='Profession', y='Annual Income', 
                  title='Annual Income vs Profession', 
                  color='Professional', 
                  color_discrete_sequence=['#FF5733', '#FFC300', '#DAF7A6'])
